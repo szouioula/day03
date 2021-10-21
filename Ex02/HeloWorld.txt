@@ -1,0 +1,10 @@
+nc -l <port>
+nc <adressIp> <port> 
+
+Adress Ip trouvé dans ifconfig (env1 avec statut active)
+Les 2 machines doivent être sur le même réseau (wifi) 
+
+Dans notre cas avec Claude:
+
+nc -l 23456 
+nc 192.168.1.101 23456
