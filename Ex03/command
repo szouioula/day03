@@ -1,1 +1,1 @@
-0 8 * * 1-5 curl wttr.in/lyon >> /Users/admin/Desktop/day03/Ex03/Meteo/meteoOfTheDay.txt
+0 8 * * 1-5 curl wttr.in/lyon > /Users/admin/Desktop/day03/Ex03/Meteo/meteoOfTheDay.txt
