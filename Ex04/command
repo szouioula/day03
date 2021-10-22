@@ -1,0 +1,12 @@
+Mkdir /Users/admin/scripts/bin
+Touch bash.sh
+
+#!/bin/bash
+d=`date +"%a_%d_%b_%Y_%T"`
+tar -czf /Users/admin/Documents/backup/backup_${d}.tar.gz -C /Users/admin Pictures
+
+
+Sudo crontab -e
+
+30 7 * * * bash /Users/admin/scripts/bin/backup.sh
+
